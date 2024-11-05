@@ -14,8 +14,7 @@ The alarm has been installed in an external metal box that is grounded to the ma
 
 https://user-images.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV
 
-[![Usage Video](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_96969.JPG)]
-(https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV)
+[![Usage Video](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9696.JPG)](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV)
 
 Image inside (note box contains 110V to the switch + Ground to the box). To remove power, unplug the lead powering slit.  Electrical tape has been added to cover a small part of the exposed ring terminal if the case is open.
 
