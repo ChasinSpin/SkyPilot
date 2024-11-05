@@ -13,7 +13,7 @@ Project SkyPilot is a project to design / build / retrofit the C14 in the Wilson
 * Astrophotography
 * Dome control
 
-Although it provides automation, this is not a remote observatory, and that ability will not be provided due to safety and the potential for equipment to get damaged, other than control from the site itself.
+*Although it provides automation, this is not a remote observatory, and that ability will not be provided due to safety and the potential for equipment to get damaged, other than control from the site itself.*
 
 ## Time Scales
 
