@@ -16,6 +16,10 @@ https://user-images.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlar
 
 [![Usage Video](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9696.JPG)](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV)
 
+https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
+
+https://user-images.githubusercontent.com/6877923/123006036-64e2e780-d3b7-11eb-922e-018994b32da5.mov
+
 Image inside (note box contains 110V to the switch + Ground to the box). To remove power, unplug the lead powering slit.  Electrical tape has been added to cover a small part of the exposed ring terminal if the case is open.
 
 ![Inside Box](IMG_9696.JPG)
