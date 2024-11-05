@@ -14,7 +14,7 @@ The alarm has been installed in an external metal box that is grounded to the ma
 
 https://github.com/user-attachments/assets/1f60c342-2444-4560-9f1b-39a3ea6fde14
 
-Image inside (note box contains 110V to the switch + Ground to the box). To remove power, unplug the lead powering slit.  Electrical tape has been added to cover a small part of the exposed ring terminal if the case is open.
+Photo of the inside of the alarm box. Box contains 110V to the switch + Ground to the box, To remove power, unplug the lead powering slit.  Electrical tape has been added to cover a small part of the exposed ring terminal if the case is open.  Buzzer is place on top and under a wooden overhang to prevent bumping by users when push items like the stairs around the dome.
 
 ![Inside Box](IMG_9696.JPG)
 
