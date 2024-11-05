@@ -11,6 +11,9 @@ Project SkyPilot is a project to design / build / retrofit the C14 in the Wilson
 * Accurate tracking
 * Auto guiding
 * Astrophotography
+* Dome control
+
+Although it provides automation, this is not a remote observatory, and that ability will not be provided due to safety and the potential for equipment to get damaged, other than control from the site itself.
 
 ## Time Scales
 
@@ -23,5 +26,7 @@ There will be minor changes to usage procedures, which I will detail as they occ
 For others who want to use the Goto more extensively or for Astrophotography, when complete, I’ll be doing a training session, and you will need to be checked out to access the new functionality, so you can make full use of it.
 
 ## Sub Projects
+
+### Dome:
 
 * [Slit Alarm](dome/SlitAlarm/README.md)
