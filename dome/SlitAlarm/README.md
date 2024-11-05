@@ -12,6 +12,8 @@ An alarm has been installed to solve this issue and consists of a 110V AC buzzer
 
 The alarm has been installed in an external metal box that is grounded to the main switch box. The 110V for the switch is supplied via 2 contacts in the main switch box, which are engaged to 110V when the slit is being closed. The part number for the alarm is [uxcellAC/DC 110V 20mA Equipment Alarm Signal Indicator Light Flash Buzzer](https://www.amazon.ca/dp/B015SK2OM8?ref=ppx_yo2ov_dt_b_fed_asin_title) and is CE rated.
 
+https://github.com/ChasinSpin/SkyPilot/raw/refs/heads/main/dome/SlitAlarm/IMG_9700.mov
+
 https://user-images.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV
 
 [![Usage Video](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9696.JPG)](https://raw.githubusercontent.com/ChasinSpin/SkyPilot/main/dome/SlitAlarm/IMG_9700.MOV)
