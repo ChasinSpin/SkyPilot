@@ -31,3 +31,4 @@ For others who want to use the Goto more extensively or for Astrophotography, wh
 
 * [Slit Alarm](dome/SlitAlarm/README.md)
 * [GPS](dome/GPS/README.md)
+* [PiFinder](pifinder/README.md)

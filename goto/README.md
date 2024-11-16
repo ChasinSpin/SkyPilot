@@ -18,4 +18,46 @@ These are just notes, nothing of any relevance:
 
 ## DEC
 
-Uses 
+Ordered Drive Hollow HBK17 100:1 10arc second backlash
+https://www.aliexpress.us/item/1005005920547351.html
+
+
+
+https://www.aliexpress.us/item/1005005920547351.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
+
+https://www.aliexpress.us/item/1005005177584882.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
+
+https://www.aliexpress.us/item/1005005060671872.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
+
+Likely a ZWO version of LHS-17-100-CL-III
+https://www.leaderdrive.com/strain-wave-gears/lhs-standard-hollow-shaft-flexspline-strain-wave-gear-lhs.asp
+
+Nema 14 (probably use 17)
+B62MXL belt 10mm?  Measure and measure the gears in the AM5
+Belt:  B62MXL10RF
+
+No brake on Dec
+
+RA: 17D4401-19BK Bipolar (Nema 17)
+    • Phase Reistance: 2.30-2.35 Ohm
+    • Phase Inductance: 3.7mH @ 1KHz
+    • Double shaft with nut on one end: 5mm Diameter
+ DEC: 14M3404 Bipolar (Nema 14)
+    • Phase Resistance: 7.09-7.21 Ohm
+    • Phase Inductance: 7.8-7.9mH @ 1Khz
+    • Single shaft: 5mm Diameter, 22mm high
+
+Stepper Drivers: Trinamic TMC5130A-TA 2.5A 5-46V 256 micro step https://www.trinamic...eet_Rev1.18.pdf
+
+Strainwave gear 100:1
+
+Center points are opto interrupted
+Reduction 300:1   Stainwave + synchronous belt
+Periodic Error <+- 20”
+PE Duration 432s
+Load Capacitor 13kg
+Slew 6 deg/s
+
+Hollow type
+
+https://www.omc-stepperonline.com/hht-series-harmonic-drive-gearbox-70mm-ratio-100-1-backlash-20arcsec-8mm-input-diameter-hht-14-100-i-d8
