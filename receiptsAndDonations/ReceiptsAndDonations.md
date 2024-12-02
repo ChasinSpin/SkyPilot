@@ -2,8 +2,9 @@
 
 | Person | Item | Amount |
 | ------ | ---- | ------ | 
-| Khalid | 50% Flat Panel | $174.35 |
+| Khalid | 50% Flat Panel | $200.00 |
 | Vinh Vo | 50% Flat Panel | $174.35 |
+| Alan K Chan | Future Donation | $125 (donated, not assigned to item yet) |
 | Mark Simpson | See items below | See receipts below |
 
 # Wish List (Astrophotography)

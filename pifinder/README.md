@@ -10,15 +10,39 @@
 	* Change any settings other than the settings accessed via the device buttons on the device itself
 	* Adjust Focus
 
-* Usage:
-	* Setup:
-		* Make sure PiFinder has the GPS cable connected and the cable is located such that it cannot be caught by the user as the cable is thin and can be damaged
-		* Power on PiFinder and wait for the display to show a menu
-		* Remove lens cover
-		* Enter 4 digit pin provided to you, to enable the panel buttons
-	* Finish:
-		* Cover lens with lens cover
-		* Remove Power
+## Setup
+
+* Make sure PiFinder has the GPS cable connected and the cable is located such that it cannot be caught by the user as the cable is thin and can be damaged
+* Connect USB Power Adapter
+* Power on PiFinder and wait for the display to show a menu
+* Remove lens cover
+* Enter 4 digit pin provided to you, to enable the panel buttons
+
+## Alignment (if needed)
+
+* Put a bright star in the center of the eyepiece
+* On "Chart" Screen, press the action button (looks like a STOP symbol, bottom right hand corner of the keypad), and select the same star by pressing the correct number that matches the star
+
+## Connecting Via Sky Safari 7 (Plus or Pro) and selecting target
+
+* Connect to the Wifi PiFinderAP (there's no password)
+* Click Scope and Connect in Sky Safari
+* Select target and click Goto
+* PiFinder comes up with a "Push", press the right arrow on the PiFinder
+
+## Selecting Target on PiFinder Buttons
+
+* Select "Objects"
+* Find the object and press the right arrow
+
+## Finish
+
+* Cover lens with lens cover
+* Disconnect GPS wire and put in ziploc bag
+* Put cover back on GPS connector
+* Remove Power adapter from the USB lead and place in ziploc bag
+* Place ziploc bag back in the cupboard
+* Wrap Grey USB cable losely around the PiFinder without bumping the PiFinder
 
 ## SkySafari 7 (Plus and Pro)
 
@@ -45,8 +69,8 @@ To setup:
 
 A graphical representation of setting up on SkySafari can be found here: [PiFinder SkySafari Setup Instructions](https://pifinder.readthedocs.io/en/main/skysafari.html)
 
-# Everything Below This Point Are Developer Notes:
 
+# Everything Below This Point Are Developer Notes:
 
 ## Install
 
