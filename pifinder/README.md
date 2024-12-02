@@ -35,6 +35,14 @@
 * Select "Objects"
 * Find the object and press the right arrow
 
+## Moving The Telescope
+
+The PiFinder updates it's position (Alt/Az) when moving the telescope during which the screen is a bit dimmer.  When stationary, a photo is taken, plate-solved, the position updated and screen goes brighter.  A plate-solve always give you an accurate distance to the target.
+
+The arrows are Alt/Az arrows not RA/DEC so can take a bit of practice to get used to, and they are inverted in direction sometimes, so just minimize the numbers on the screen so they are close to zero until you have the object in the eyepiece.
+
+It's possible to get on target without looking through the eyepiece.
+
 ## Finish
 
 * Cover lens with lens cover
