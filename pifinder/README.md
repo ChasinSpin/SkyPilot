@@ -21,14 +21,14 @@
 ## Alignment (if needed)
 
 * Put a bright star in the center of the eyepiece
-* On "Chart" Screen, press the action button (looks like a STOP symbol, bottom right hand corner of the keypad), and select the same star by pressing the correct number that matches the star
+* On "Camera" Screen, press the action button (looks like a STOP symbol, bottom right hand corner of the keypad), and select the same star by pressing the correct number that matches the star. The C14 and PiFinder axis are now aligned
 
 ## Connecting Via Sky Safari 7 (Plus or Pro) and selecting target
 
-* Connect to the Wifi PiFinderAP (there's no password)
+* Connect to the Wifi PiFinderAP (there's no password).  Note: Androids often need you to wait until a popup appears for the network confirming connection to a network without internet
 * Click Scope and Connect in Sky Safari
-* Select target and click Goto
-* PiFinder comes up with a "Push", press the right arrow on the PiFinder
+* Make sure "Lock" is on, so that the screen automatically updates to the telescope position 
+* Select target and click Goto. PiFinder comes up with a "Push", press the right arrow on the PiFinder.  Alternatively you can just slew to the target by moving the C14 and watching the current position in SkySafari
 
 ## Selecting Target on PiFinder Buttons
 
@@ -67,13 +67,14 @@ To setup:
 	* Click "Next"
 	* IP Address: pifinder.local
 	* Port Number: 4030
-	* Connect to the PiFinderAp Network in your phones settings
+	* Connect to the PiFinderAp Network in your phones settings. Note: Androids often need you to wait until a popup appears for the network confirming connection to a network without internet
 	* Click on "Check Connection Now"
 	* If connection verified, click Next, otherwise check the network you're connected to
 	* Change Preset name to "PiFinder"
-	* Make sure "Set Telescope Time & Location" if UNCHECKED
+	* Make sure "Set Telescope Time & Location" is UNCHECKED
 	* Click "Save Preset"
 	* Select "PiFinder" and connect
+	* Click on Observe / Scope Display and enable Telrad Circles and Cross Hairs so you can see a target for the current C14 position in SkySafari
 
 A graphical representation of setting up on SkySafari can be found here: [PiFinder SkySafari Setup Instructions](https://pifinder.readthedocs.io/en/main/skysafari.html)
 
