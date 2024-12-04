@@ -9,14 +9,18 @@
 
 # Wish List (Astrophotography)
 
+Prior to purchase, check plate solving on C14 with ASIAir works, and also may want to look at putting the plate solving / guiding on the guidescope instead of plate solving in the main aperture.
+
 | Item | 
 | ---- |
-| ZWO Deep Sky OSC Camera with no Amp Glow e.g. ASI533MC-P, or ideally a ZWO APS-C OSC if possible as it’s for a C14 |
+| ZWO Deep Sky OSC APS-C Camera with no Amp Glow e.g. ASI2600MC Pro |
 | ZWO ASIAIR PLUS 256GB |
 | ZWO Guide Camera e.g. ASI174MM Mini |
 | Any Guide Scope that works with the guide camera |
 | Filter Drawer for OSC Camera |
 | A Dual or Triple or Quad band filter.  Something suitable for OSC and Bortle 5 |
+| HA Filter |
+| Recent iPad and Charger (for people that don't have mobile phones to control the ASIAIR Plus) |
 
 # Receipts
 
