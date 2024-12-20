@@ -1,3 +1,15 @@
+# Dome Door Lock
+
+Due to failure of the Simplex 5 digit pin lock, the dome door is currently a keyed lock temporarily, see Eric, Jack or Mark for the location of the key.
+
+The lock can be opened from the inside, but not from the outside without a key, so there's a possibility that you can lock yourself out if you leave the key in the dome.
+
+To avoid locking yourself out:
+
+### Put the key in the lock and turn 90 degrees so it's vertical, and leave in the lock until you're ready to leave and lock up.  When it's vertical, the key can't accidentally drop out.
+
+Replace lock where you got it from after you're finished using the dome.
+	
 # Auth System Notes
 
 * RFID/LoRa or Wifi ESP32 board (with low power)
