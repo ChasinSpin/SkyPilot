@@ -8,7 +8,6 @@ Debug/*
 Release/*
 debug.cfg
 esp32.svd
-src/plugins/*
 debug.svd
 z.esp4.lxd75.servo.Config.h
 z.esp4.lxd75.std.Config.h
