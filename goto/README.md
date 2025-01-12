@@ -61,3 +61,29 @@ Slew 6 deg/s
 Hollow type
 
 https://www.omc-stepperonline.com/hht-series-harmonic-drive-gearbox-70mm-ratio-100-1-backlash-20arcsec-8mm-input-diameter-hht-14-100-i-d8
+
+# Uploading Firmare
+
+1. Open OnStepX.ino in firmware/OnStepX using Arduino 2.3.2
+2. Select the port for the Teensy 4.1
+3. Connect USB to the Teensy
+4. Board should be set to Teensy 4.1
+5. Board Settings: Optimize: Faster, CPU Speed: 600MHz, USB Type Serial
+6. Compile firmware and upload
+
+## To Wipe NV Ram
+
+Set NV Wipe in Extended.config.h and upload, wait 2 mins, then upload again with NV Wipe Off.
+
+# Mount Startup
+
+1. Set date/location
+2. Unpark mount.  (Mount will not be in tracking mode)
+3. Slew to NCP
+4. Click Home Reset
+5. Enable tracking
+6. Slew
+
+# Mount Operation
+
+1. Goto/Controls changes the slewing speed

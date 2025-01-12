@@ -23,7 +23,6 @@ Replace lock where you got it from after you're finished using the dome.
 ## Wish list for lock
 
 * Key as backup
-* Low battery indicator
 * Cold Temps
 * Not auto locking, i.e. open and stay open, maybe push button or tag again to lock
 * RFID frequency compatible with other RFID keys
