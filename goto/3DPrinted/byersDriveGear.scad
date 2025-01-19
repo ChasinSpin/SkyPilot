@@ -17,61 +17,51 @@ manifoldCorrection      = 0.01;
 manifoldCorrection2     = manifoldCorrection * 2;
 
 
+// DiametralPitch is actually 48DP, but reducing by 1 to allow for shrinkage when 3D printing in Nylon
 
-translate( [-5, 0, 0] )
-    byersSpureGear(teeth=40, diametralPitch=48, pressureAngle=14.5, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-translate( [25, 0, 0] )
-    byersSpureGear(teeth=40, diametralPitch=48, pressureAngle=20.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-translate( [50, 0, 0] )
-    byersSpureGear(teeth=40, diametralPitch=48, pressureAngle=25.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-    
-
-translate( [0, 25, 0] )
-{   
-    byersSpureGear(teeth=40, diametralPitch=50, pressureAngle=14.5, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-    translate( [25, 0, 0] )
-        byersSpureGear(teeth=40, diametralPitch=50, pressureAngle=20.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-    translate( [50, 0, 0] )
-        byersSpureGear(teeth=40, diametralPitch=50, pressureAngle=25.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-}
-
-translate( [0, 50, 0] )
-{   
-    byersSpureGear(teeth=40, diametralPitch=46, pressureAngle=14.5, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-    translate( [25, 0, 0] )
-        byersSpureGear(teeth=40, diametralPitch=46, pressureAngle=20.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-
-    translate( [50, 0, 0] )
-        byersSpureGear(teeth=40, diametralPitch=46, pressureAngle=25.0, gearThickness=6.0, hubThickness=4.5, hubDiameter=11.23, boreDiameter=4.76+0.2, insertHoleDiameter=2.5+0.3);
-}
+byersSpurGear(teeth=40, diametralPitch=47, pressureAngle=20.0, gearThickness=4.78, hubThickness=5.3, hubDiameter=16.73, boreDiameter=5.0+0.2, insertHoleDiameter=3.0+0.3, flangeInsertDepth = 0.4, retainingNutDiameter = 6.0 + 0.3, retainingNutThickness = 2.3 + 0.3, retainingNutOffsetX = -3.8, insertHoleOffsetZ = -0.7);
 
 
-module byersSpureGear(teeth, diametralPitch, pressureAngle, gearThickness, hubThickness, hubDiameter, boreDiameter, insertHoleDiameter)
+
+module byersSpurGear(teeth, diametralPitch, pressureAngle, gearThickness, hubThickness, hubDiameter, boreDiameter, insertHoleDiameter, flangeInsertDepth, retainingNutDiameter, retainingNutThicknessretainingNutDiameter, retainingNutThickness = 2.3 + 0.3, retainingNutOffsetX, insertHoleOffsetZ)
 {
     difference()
     {
         union()
         {
-            linear_extrude(gearThickness)
-                spur_gear(teeth, P = diametralPitch, pa = pressureAngle);
+            difference()
+            {
+                union()
+                {
+                    linear_extrude(gearThickness)
+                        spur_gear(teeth, P = diametralPitch, pa = pressureAngle);
     
-            translate( [0, 0, gearThickness] )
-                cylinder(d = hubDiameter, h = hubThickness, $fn = 40);
+                    translate( [0, 0, gearThickness] )
+                        cylinder(d = hubDiameter, h = hubThickness, $fn = 40);
+                }
+    
+                translate( [0, 0, -manifoldCorrection] )
+                    cylinder(d = boreDiameter, h = gearThickness + hubThickness + manifoldCorrection2, $fn = 40);
+            }
+        
+            translate( [boreDiameter/2 - flangeInsertDepth, -boreDiameter/2, 0] )
+                cube( [boreDiameter/2, boreDiameter, gearThickness + hubThickness] );
         }
-    
-        translate( [0, 0, -manifoldCorrection] )
-            cylinder(d = boreDiameter, h = gearThickness + hubThickness + manifoldCorrection2, $fn = 40);
         
-        
-        translate( [0, 0, gearThickness + hubThickness/2] )
+        translate( [hubDiameter/2, 0, gearThickness + hubThickness/2 + insertHoleOffsetZ] )
             rotate( [0, 90, 0] )
-            cylinder( d = insertHoleDiameter, h = hubDiameter + manifoldCorrection2, center = true, $fn = 40 );
+                cylinder( d = insertHoleDiameter, h = hubDiameter + manifoldCorrection2, center = true, $fn = 40 );
+        
+        translate( [hubDiameter/2 + retainingNutOffsetX, 0, gearThickness + hubThickness/2 + insertHoleOffsetZ] )
+            rotate( [0, 90, 0] ) 
+            {
+                cylinder(d = retainingNutDiameter, h = retainingNutThickness, center = true, $fn = 6);
+                translate( [0, -retainingNutDiameter/2 * 0.865, retainingNutThickness/2] )
+                    rotate( [0, 180, 0] )
+                        cube( [10, retainingNutDiameter * 0.865, retainingNutThickness] );
+            }   
     }
+    
 }
 
 /**

@@ -1,15 +1,31 @@
-// 2 (Declination Coupler) No support, 30% fill
-// 
+// 1 Dec Coupler
+//      30% Fill, PETG-CF, No Support, 30% fill, Smooth PEI Plate, Glue Stick
 //
-// 3
-//      15% Fill, Support Required
+// 2 (Stepper Coupler Rod) No support, 100% fill
+//      Note: This has been replaced by a custom lathed rod drilled and tapped 1/4-20
 //
-// 4 (Bearing Plate):
+// 3 Outer Casing Top
+//      100% PETG-CF Support Required, Smooth PEI Plate, Glue Stick
+//
+// 4 Outer Casing Bottom
+//      30% Fill, PETG-CF, Support Required, Smooth PEI Plate, Glue Stick
+//
+// 5 Bearing Plate:
 //      50% Fill, 4 wall loops, no support
-//      PAHT-CF and Gluestick on the bed
+//      PAHT-CF, Smooth PEI Plate,  and Gluestick on the bed
+//
+// 6 Cover:
+//      15% Fill, PETG-CF Black and PETG-HF Yellow, Support Required, Textured PEI Plate, Glue Stick
+//      Fill in text in Bambu Studio
+//
+// 7 Rotation Indicator
+//      15% Fill, PLA Glow and PLA Black, Support, Textured PEI Plate, Liquid Glue
+//      Fill in indicator in Bambu Studio
+//
+// Bolt and Glue Part 3 to Part 4, use blue tape around to prevent glue leakage down the sides. Use Oatley Clear PVC/CPVC Primer (or Oatley Purple PVC/CPVC Primer to glue
 
 
-partNum                             = 1;    // 0= All, 1 = Dec Coupler, 2 = Stepper Coupler Rod, 3 = Stepper Strainwave Plate (decPlate), 4 = Bearing Plate
+partNum                             = 6;    // 0= All, 1 = Dec Coupler, 2 = Stepper Coupler Rod, 3 = Outer Casing Top, 4 = Outer Casing Bottom, 5 = Bearing Plate, 6 = Cover, 7 = Rotation Indicator
 
 decCouplerPlateBaseThickness        = 7.0;
 decCouplerPlateBaseBoltDiameter     = 6.17 + 0.5;
@@ -78,20 +94,27 @@ forkOuterDiameter                   = forkInnerDiameter + 20.0 * 2;
 forkHeight                          = 105.0;
 forkPlateThickness                  = 6.0;
 forkPlateReinforcementWidth         = 10.0;
-forkBoltHoleOffsetZ                 = 93.0;
+forkBoltHoleOffsetZ                 = 90.0;
 forkBoltHoleDiameter                = 4.07 + 0.5;
 forkBoltHoleHeadDiameter            = 10.0;
 forkBoltHoleDepth                   = 10.0;
 forkBoltHoleAnglesLimit             = [180-110, 180+110];
-forkBoltHoleLozengeWidth            = 34.0;
+forkBoltHoleLozengeWidth            = 26.0;
 forkBoltHolesNumber                 = 8;
+forkHigherDensitySplitHeight        = 75;
 
-logoFont                            = "Verdana:style=Bold Italic";
+casingAttachmentBoltHeadDiameter    = 8.25;
+casingAttachmentBoltEntryDepth      = forkHeight - forkHigherDensitySplitHeight - 8.0;
+casingAttachmentBoltDiameter        = 4.3;
+casingAttachmentBoltHoleLength      = casingAttachmentBoltEntryDepth + 25.0;
+casingAttachmentBoltHeadHeight      = 3.0;
+
+logoFont                            = "Verdana:style=Bold";
 logoSize                            = 24;
-logoHeight                          = 2;
-logoSpacing                         = 20;
-logoRotation                        = -4.9;
-logoDiameter                        = 60;
+logoHeight                          = 0.6;
+logoSpacing                         = 30;
+logoRotation                        = 4.5;
+logoDiameter                        = 48;
 logoRotate_x                        = 0;
 logoRotate_y                        = 0;
 logoRotate_z                        = 180;
@@ -102,6 +125,29 @@ bearingPlateCouplerThickness        = 8.0;
 m4InsertDiameter                    = 5.4;
 m4InsertDepth                       = 7.0;
 
+m3InsertDiameter                    = 4.35 + 0.2;
+m3InsertDepth                       = 5.0;
+m3BoltDiameter                      = 3.2;
+m3BoltHeadDiameter                  = 6.2;
+m3BoltHeadHeight                    = 2.5;
+m3BoltCaseBottomDepth               = 9.0;
+
+coverBoltsRadius                    = forkOuterDiameter/2 - 7.0;
+coverThickness                      = 4.0;
+coverMainHeight                     = 35.0 + coverThickness;
+coverRotationIndicatorHeight        = 2.0 + coverThickness;
+coverRotationIndicatorDiameter      = 40.0;
+coverRotationIndicatorCoverHoleDia  = coverRotationIndicatorDiameter + 3.0;
+coverCutoutDiameterOuter            = 19 + coverThickness * 2; 
+coverCutoutBoltFlangeThickness      = 6.25;   
+coverHeightExtension                = 73.0;
+coverRotationIndicatorMarkWidth     = 2.0;
+coverRotationIndicatorMarkDepth     = 0.6;
+
+coverRotationIndicatorBoltDiameter  = 6.25 + 0.3;
+coverRotationIndicatorBoltHeadDia   = 12.5;
+coverRotationIndicatorBoltHeadHeight= 4.6;
+ 
 insertDepth                         = 7.0;
 insertDiameter                      = 5.35 + 0.3;
 
@@ -120,13 +166,165 @@ if ( partNum == 0 || partNum == 2 )
 
 if ( partNum == 0 || partNum == 3 )    
    translate( [0, decCouplerOuterDiameter + stepperCouplerDiameter + 20, 0] )
-        stepperStrainwavePlate();
+        stepperStrainwavePlateTop();
+
+if ( partNum == 0 || partNum == 4 )    
+   translate( [0, decCouplerOuterDiameter + stepperCouplerDiameter + 20, 0] )
+        stepperStrainwavePlateBottom();
       
-if ( partNum == 0 || partNum == 4 )   
+if ( partNum == 0 || partNum == 5 )   
     translate( [-140, 0, 0] )
         bearingPlate();
+
+if ( partNum == 0 || partNum == 6 )
+    cover();
+ 
+if ( partNum == 0 || partNum == 7 )
+    rotationIndicator();
+ 
+
+ 
+module rotationIndicator()
+{
+    difference()
+    {
+        union()
+        {
+            difference()
+            {   
+                cylinder(d = coverRotationIndicatorDiameter, h = coverRotationIndicatorHeight);
+        
+                // Cutout indicator
+                translate( [-coverRotationIndicatorMarkWidth/2, 0, -manifoldCorrection] )
+                    cube( [coverRotationIndicatorMarkWidth, coverRotationIndicatorDiameter/2, coverRotationIndicatorMarkDepth + manifoldCorrection] );
+            }
     
+            // Put indicator back in
+            color( [0.0, 0.0, 0.0] )
+                translate( [-coverRotationIndicatorMarkWidth/2, 0, 0.0001] )
+                    cube( [coverRotationIndicatorMarkWidth, coverRotationIndicatorDiameter/2, coverRotationIndicatorMarkDepth] );
+        }
+  
+        // Bolt Hole
+        translate( [0, 0, -manifoldCorrection] )
+            cylinder(d = coverRotationIndicatorBoltDiameter, h = coverRotationIndicatorHeight + manifoldCorrection2);
+        translate( [0, 0, -manifoldCorrection] )
+            cylinder(d2 = coverRotationIndicatorBoltDiameter, d1 = coverRotationIndicatorBoltHeadDia, h = coverRotationIndicatorBoltHeadHeight + manifoldCorrection);
+        
+    }
+}
+
+
+   
+module cover()
+{
+    deltaAngle2 = 400.0;
+
+    difference()
+    {
+        union()
+        {
+            difference()
+            {
+                union()
+                {
+                    // Main Plate
+                    cylinder(d = forkOuterDiameter, h = coverThickness);
+        
+                    // Surround
+                    difference()
+                    {
+                        cylinder(d = forkOuterDiameter, h = coverMainHeight);
+                        translate( [0, 0, -manifoldCorrection] )
+                            cylinder(d = forkOuterDiameter - coverThickness * 2, h = coverMainHeight + manifoldCorrection2);
+                    }
+                }
+        
+                // Rotation Indicator Hole
+                translate( [0, 0, -manifoldCorrection] )
+                    cylinder(d = coverRotationIndicatorCoverHoleDia, h = coverThickness + manifoldCorrection2);
+                       
+                // SkyPilot text cutout
+                translate( [0, 0, logoHeight - manifoldCorrection] )   
+                rotate( [0, -90, 0] )
+                    circleText(logoText);
+            }
     
+            // Surround for bolts
+            difference()
+            {
+                for ( r = [-deltaAngle2*3, -deltaAngle2*2, -deltaAngle2, 0, deltaAngle2, deltaAngle2*2, deltaAngle2*3] )
+                    rotate( [0, 0, r] )
+                    {
+                        translate( [-forkOuterDiameter/2, 0, 0] )
+                            cylinder(d = coverCutoutDiameterOuter, h = coverMainHeight);
+                    }
+            
+                translate( [0, 0, -manifoldCorrection] )
+                    donut(forkOuterDiameter + coverCutoutDiameterOuter + 1.0, forkOuterDiameter, coverMainHeight + manifoldCorrection2);
+            }
+        
+            // SkyPilot text addin
+            color( [1.0, 0.0, 0.0] )
+                translate( [0, 0, logoHeight - manifoldCorrection] )   
+                    rotate( [0, -90, 0] )
+                        circleText(logoText);
+        }
+
+        // Cover Bolt Holes
+        for ( r = [-deltaAngle2*3, -deltaAngle2*2, -deltaAngle2, 0, deltaAngle2, deltaAngle2*2, deltaAngle2*3] )
+            rotate( [0, 0, r] )
+            {
+                translate( [-coverBoltsRadius, 0, 0] )
+                {
+                    // Bolt Hole
+                    translate( [0, 0, -manifoldCorrection] )
+                        cylinder(d = m3BoltDiameter, h = coverMainHeight + manifoldCorrection2);
+                        
+                    // Head Hole    
+                    translate( [0, 0, -manifoldCorrection] )
+                        cylinder(d = m3BoltHeadDiameter, h = coverMainHeight - coverCutoutBoltFlangeThickness + manifoldCorrection);
+                        
+                    // Head
+                    translate( [0, 0, coverMainHeight - coverCutoutBoltFlangeThickness - manifoldCorrection] )
+                        cylinder(d2 = m3BoltDiameter, d1 = m3BoltHeadDiameter, h = m3BoltHeadHeight + manifoldCorrection);
+                }
+            }
+    }
+    
+    difference()
+    {
+        sector(forkOuterDiameter/2, [-54, 54], coverHeightExtension, fn = 80);
+        translate( [0, 0, -manifoldCorrection] )
+            cylinder(d = forkOuterDiameter - coverThickness * 2, h = coverHeightExtension + manifoldCorrection2);
+    }
+}
+
+ 
+    
+module stepperStrainwavePlateTop()    
+{
+    difference()
+    {
+        stepperStrainwavePlate();
+        translate( [0, 0, -manifoldCorrection] )
+            cylinder(d = forkOuterDiameter + manifoldCorrection2, h = forkHigherDensitySplitHeight + manifoldCorrection);
+    }
+}
+
+
+
+module stepperStrainwavePlateBottom()
+{
+    difference()
+    {
+        stepperStrainwavePlate();
+        translate( [0, 0, forkHigherDensitySplitHeight] )
+            cylinder(d = forkOuterDiameter + manifoldCorrection2, h = forkHeight - forkHigherDensitySplitHeight + manifoldCorrection);
+    }
+}    
+    
+ 
  
 module bearingPlate()
 {
@@ -191,64 +389,115 @@ module circleText(myText)
  
 module stepperStrainwavePlate()
 {
-    strainwavePlateHeight = stepperStrainwaveHeightOffset + stepperPlateDimensions[2];
-    
-    // Strainwave plate
     difference()
     {
         union()
         {
-            donut(stepperStrainwaveOuterDiameter, stepperStrainwaveInnerDiameter, strainwavePlateHeight);
-            translate( [stepperBeltPulleyDistance, 0, 0] )
-                stepperPlate(strainwavePlateHeight);
+            strainwavePlateHeight = stepperStrainwaveHeightOffset + stepperPlateDimensions[2];
+    
+            // Strainwave plate
             difference()
             {
-                sector(forkOuterDiameter/2, stepperStrainwaveCutoutAngles, strainwavePlateHeight, fn=$fn);
-                translate( [0, 0, -manifoldCorrection] )
-                    cylinder(d=stepperStrainwaveInnerDiameter, h = strainwavePlateHeight + manifoldCorrection2);
+                union()
+                {
+                    donut(stepperStrainwaveOuterDiameter, stepperStrainwaveInnerDiameter, strainwavePlateHeight);
+                    translate( [stepperBeltPulleyDistance, 0, 0] )
+                    stepperPlate(strainwavePlateHeight);
+                    difference()
+                    {
+                        sector(forkOuterDiameter/2, stepperStrainwaveCutoutAngles, strainwavePlateHeight, fn=$fn);
+                        translate( [0, 0, -manifoldCorrection] )
+                            cylinder(d=stepperStrainwaveInnerDiameter, h = strainwavePlateHeight + manifoldCorrection2);
+                    }
+                }
+  
+                for ( r = [0:stepperStrainwaveHoleAngle:360] )
+                    rotate( [0, 0, r] )
+                        translate( [stepperStrainwaveHolesRadius, 0, -manifoldCorrection] )
+                        {
+                            cylinder(d = stepperStrainwaveBoltDiameter, h = strainwavePlateHeight + manifoldCorrection2, $fn = 20);
+                            cylinder(d = stepperStrainwaveNutDiameter, h = strainwavePlateHeight - stepperStrainwaveBoltHeight + manifoldCorrection, $fn = 6);
+                        }
+                
+                // Allen key cutout
+                rotate( [0, 0, stepperStrainwaveAllenCutoutRotation] )
+                    translate( [-stepperStrainwaveAllenCutoutWidth/2, 0, -manifoldCorrection] )
+                        cube( [stepperStrainwaveAllenCutoutWidth, stepperStrainwaveAllenCutoutLength, strainwavePlateHeight * 0.75 + manifoldCorrection] ); 
+            }
+
+            difference()
+            {
+                difference()
+                {
+                    sector(forkOuterDiameter/2, stepperStrainwaveCutoutAngles, forkHeight, fn=$fn);
+                    translate( [0, 0, -manifoldCorrection] )
+                        cylinder(d = forkInnerDiameter, h = forkHeight + manifoldCorrection2);   
+                }
+            
+                sideThickness = (forkOuterDiameter - forkInnerDiameter) / 2;
+                deltaAngle = (forkBoltHoleAnglesLimit[1]-forkBoltHoleAnglesLimit[0]) / (forkBoltHolesNumber-1);
+                for ( r = [forkBoltHoleAnglesLimit[0]:deltaAngle:forkBoltHoleAnglesLimit[1]] )
+                    rotate( [0, 0, r] )
+                        translate( [forkOuterDiameter/2 - forkBoltHoleDepth, 0, forkBoltHoleOffsetZ] )
+                            rotate( [0, 90, 0] )
+                            {
+                                lozenge(forkBoltHoleLozengeWidth, forkBoltHoleHeadDiameter, forkBoltHoleDepth);
+                                translate( [0, 0, -(sideThickness - forkBoltHoleDepth + forkBoltHoleDepth/2)] )
+                                    lozenge(forkBoltHoleLozengeWidth - (forkBoltHoleHeadDiameter - forkBoltHoleDiameter), forkBoltHoleDiameter, forkBoltHoleDepth * 2);
+                            }
+        
+                // Casing Bolt/Insert Holes
+                for ( r = [-deltaAngle*3, -deltaAngle*2, -deltaAngle, 0, deltaAngle, deltaAngle*2, deltaAngle*3] )
+                    rotate( [0, 0, r] )
+                        casingBoltAssmebly();    
             }
         }
-  
-        for ( r = [0:stepperStrainwaveHoleAngle:360] )
+        
+        // Cover Bolt/Insert Holes
+        deltaAngle2 = 400.0;
+        for ( r = [-deltaAngle2*3, -deltaAngle2*2, -deltaAngle2, 0, deltaAngle2, deltaAngle2*2, deltaAngle2*3] )
             rotate( [0, 0, r] )
-                translate( [stepperStrainwaveHolesRadius, 0, -manifoldCorrection] )
-                {
-                    cylinder(d = stepperStrainwaveBoltDiameter, h = strainwavePlateHeight + manifoldCorrection2, $fn = 20);
-                    cylinder(d = stepperStrainwaveNutDiameter, h = strainwavePlateHeight - stepperStrainwaveBoltHeight + manifoldCorrection, $fn = 6);
-                }
-                
-         // Allen key cutout
-         rotate( [0, 0, stepperStrainwaveAllenCutoutRotation] )
-            translate( [-stepperStrainwaveAllenCutoutWidth/2, 0, -manifoldCorrection] )
-                cube( [stepperStrainwaveAllenCutoutWidth, stepperStrainwaveAllenCutoutLength, strainwavePlateHeight * 0.75 + manifoldCorrection] ); 
-               
-         // SkyPilot text
-         translate( [0, 0, logoHeight - manifoldCorrection] )   
-            rotate( [0, -90, 0] )
-                circleText(logoText);
-    }
-
-    difference()
-    {
-        difference()
-        {
-            sector(forkOuterDiameter/2, stepperStrainwaveCutoutAngles, forkHeight, fn=$fn);
-            translate( [0, 0, -manifoldCorrection] )
-                cylinder(d = forkInnerDiameter, h = forkHeight + manifoldCorrection2);   
-        }
-            
-        sideThickness = (forkOuterDiameter - forkInnerDiameter) / 2;
-        for ( r = [forkBoltHoleAnglesLimit[0]:(forkBoltHoleAnglesLimit[1]-forkBoltHoleAnglesLimit[0]) / (forkBoltHolesNumber-1):forkBoltHoleAnglesLimit[1]] )
-            rotate( [0, 0, r] )
-                translate( [forkOuterDiameter/2 - forkBoltHoleDepth, 0, forkBoltHoleOffsetZ] )
-                    rotate( [0, 90, 0] )
-                    {
-                        lozenge(forkBoltHoleLozengeWidth, forkBoltHoleHeadDiameter, forkBoltHoleDepth);
-                        translate( [0, 0, -(sideThickness - forkBoltHoleDepth + forkBoltHoleDepth/2)] )
-                            lozenge(forkBoltHoleLozengeWidth - (forkBoltHoleHeadDiameter - forkBoltHoleDiameter), forkBoltHoleDiameter, forkBoltHoleDepth * 2);
-                    }
+                coverBoltHole();
     }
 }
+
+
+
+module coverBoltHole()
+{
+    translate( [-coverBoltsRadius, 0, 0] )
+    {
+        translate( [0, 0, -1] )
+        {
+            cylinder(d = m3BoltDiameter, h = m3BoltCaseBottomDepth + manifoldCorrection);
+            cylinder(d = m3InsertDiameter, h = m3InsertDepth + manifoldCorrection);
+        }
+    }
+}
+
+
+
+module casingBoltAssmebly()
+{
+    translate( [-(forkOuterDiameter + forkInnerDiameter) / 4, 0, 0] )
+    {
+        // Head clearance hole
+        translate( [0, 0, forkHeight - casingAttachmentBoltEntryDepth] )
+            cylinder(d = casingAttachmentBoltHeadDiameter, h = casingAttachmentBoltEntryDepth + manifoldCorrection);
+            
+        // Bolt hole
+        translate( [0, 0, forkHeight - casingAttachmentBoltHoleLength] )
+            cylinder(d = casingAttachmentBoltDiameter, h = casingAttachmentBoltHoleLength + manifoldCorrection);
+            
+        // Bolt Head
+        translate( [0, 0, forkHeight - (casingAttachmentBoltEntryDepth + casingAttachmentBoltHeadHeight)] )            
+            cylinder(d1 = casingAttachmentBoltDiameter, d2 = casingAttachmentBoltHeadDiameter, h = casingAttachmentBoltHeadHeight + manifoldCorrection);
+                    
+        // Insert
+        translate( [0, 0, forkHigherDensitySplitHeight - m4InsertDepth] )
+            cylinder(d = m4InsertDiameter, h = m4InsertDepth + manifoldCorrection);
+    }
+ }
 
 
 
