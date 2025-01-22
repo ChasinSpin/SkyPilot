@@ -13,22 +13,25 @@ Project SkyPilot is a project to design / build / retrofit the C14 in the Wilson
 * Astrophotography
 * Dome control
 
-*Although it provides automation, this is not a remote observatory, and that ability will not be provided due to safety and the potential for equipment to get damaged, other than control from the site itself.*
+*Although it provides automation, this is not a remote observatory due to safety and the potential for equipment to get damaged, other than control from the site itself.*
 
-## Time Scales
+## Site
 
-The project will take a few months as I iterate the design, especially given the cold weather.  There will be very minimal interruption to regular usage, and I’ll be avoiding events I know about or are on the calendar.  I may need to test on the occasional clear night as I dial everything in.
+* [Card Access System](auth/README.md)
+* Weather - TBA
 
-## Changes To Usage
+## Dome:
 
-There will be minor changes to usage procedures, which I will detail as they occur, but fundamentally if you’re a purely visual observer, not much will change apart from the Dec clutch, the addition of some hardware/cables, and a new hand controller.
+Access to the dome and C14 is via a $30 yearly fee and instruction on how to operate the dome and C14's goto.
 
-For others who want to use the Goto more extensively or for Astrophotography, when complete, I’ll be doing a training session, and you will need to be checked out to access the new functionality, so you can make full use of it.
+### Users:
 
-## Sub Projects
-
-### Dome:
-
+* [C14 Goto](goto/README.md)
+* C14 Astrophotography - TBA
 * [Slit Alarm](dome/SlitAlarm/README.md)
 * [GPS](dome/GPS/README.md)
-* [PiFinder](pifinder/README.md)
+* [PiFinder](pifinder/README.md) (Temporary)
+
+### Site Manager
+
+* [C14 Maintenance](maintenance/C14Maintenance.md)

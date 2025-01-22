@@ -1,5 +1,16 @@
 # Goto Notes
 
+## Mount Operation
+
+1. Make sure Dec Drive on forks is pointing East at right angles to the RA base with DEC cable wrapped behind
+2. Power on mount
+3. Slew to Dec 90 and press "Home Reset"
+
+### SkySafari
+
+
+1. Goto/Controls changes the slewing speed
+
 ## Byers RA Steppper Motor
 
 * [Part Number: 3008-002](https://www.hurst-motors.com/asabsgeared.html)  Reduction ratio 150:1 12V Unipolar
@@ -18,21 +29,15 @@ These are just notes, nothing of any relevance:
 
 ## DEC
 
-Ordered Drive Hollow HBK17 100:1 10arc second backlash
+Strainwave Drive Hollow HBK17 100:1 10arc second backlash
 https://www.aliexpress.us/item/1005005920547351.html
-
-
-
-https://www.aliexpress.us/item/1005005920547351.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
-
-https://www.aliexpress.us/item/1005005177584882.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
-
-https://www.aliexpress.us/item/1005005060671872.html?search_direct=true&spm=a2g0o.productlist.0.0&gatewayAdapt=glo2usa
 
 Likely a ZWO version of LHS-17-100-CL-III
 https://www.leaderdrive.com/strain-wave-gears/lhs-standard-hollow-shaft-flexspline-strain-wave-gear-lhs.asp
 
-Nema 14 (probably use 17)
+*UPDATE THIS*
+
+Nema 17
 B62MXL belt 10mm?  Measure and measure the gears in the AM5
 Belt:  B62MXL10RF
 
@@ -84,6 +89,3 @@ Set NV Wipe in Extended.config.h and upload, wait 2 mins, then upload again with
 5. Enable tracking
 6. Slew
 
-# Mount Operation
-
-1. Goto/Controls changes the slewing speed

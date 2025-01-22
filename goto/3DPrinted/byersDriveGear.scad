@@ -1,6 +1,7 @@
 // Generic PA with filament Taulman 645
 //      100% fill
 //      No Support
+//      0.08 Extra Fine (layer height)
 //      Smooth PEI Plate, use Glue Stick
 //      Quality/Advanced:
 //          Order of walls: Outer/Inner
@@ -11,15 +12,17 @@
 //          Sparse Infill Density: 100%
 //          Sparse Infill Pattern: Rectilinear
 //
-// M3 Insert
+// M3 Nut and grub screw
+//
+// Important, scale up model by 1.8% to allow for shrinkage
+// Outer diameter should be 22.225mm
 
 manifoldCorrection      = 0.01;
 manifoldCorrection2     = manifoldCorrection * 2;
 
 
-// DiametralPitch is actually 48DP, but reducing by 1 to allow for shrinkage when 3D printing in Nylon
 
-byersSpurGear(teeth=40, diametralPitch=47, pressureAngle=20.0, gearThickness=4.78, hubThickness=5.3, hubDiameter=16.73, boreDiameter=5.0+0.2, insertHoleDiameter=3.0+0.3, flangeInsertDepth = 0.4, retainingNutDiameter = 6.0 + 0.3, retainingNutThickness = 2.3 + 0.3, retainingNutOffsetX = -3.8, insertHoleOffsetZ = -0.7);
+byersSpurGear(teeth=40, diametralPitch=48, pressureAngle=20.0, gearThickness=4.78, hubThickness=5.3, hubDiameter=16.73, boreDiameter=5.0+0.2, insertHoleDiameter=3.0+0.3, flangeInsertDepth = 0.4, retainingNutDiameter = 6.0 + 0.3, retainingNutThickness = 2.3 + 0.3, retainingNutOffsetX = -3.8, insertHoleOffsetZ = -0.7);
 
 
 
