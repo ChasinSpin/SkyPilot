@@ -1,12 +1,12 @@
 # Donations
 
-| Person | Item | Amount |
-| ------ | ---- | ------ | 
-| Khalid | 50% Flat Panel | $200.00 |
-| Vinh Vo | 50% Flat Panel | $174.35 |
-| Alan K Chan | Future Donation | $125 (donated, not assigned to item yet) |
-| Mike Rossier | Future Donation | (donated, not assigned to item yet) |
-| Daniel & Nancy Boychuck | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
+| Person | Date | Item | Amount |
+| ------ | ---- | ---- | ------ | 
+| Khalid Qureshi | 2024-11-27 | 50% Flat Panel and $25.65 towards strainwave gear for DEC| $200.00 |
+| Vinh Vo | 2024-11-28 | 50% Flat Panel | $174.35 |
+| Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
+| Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
+| Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
 | Mark Simpson | See items below | See receipts below |
 
 # Wish List (Astrophotography)
