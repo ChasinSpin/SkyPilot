@@ -35,8 +35,8 @@ Capabilities are:
 # Equipment Rules and Usage
 
 * [General](#general)
-* [SkyPilot (Goto)](#skypilot--goto-)
-* [SkyPilot (Handset)](#skypilot--handset-)
+* [SkyPilot (Goto)](#skypilot-(goto))
+* [SkyPilot (Handset)](#skypilot-(handset))
 * [Sky Safari](#sky-safari)
 * [ASIAIR](#asiair)
 * [Bring Your Own Astrophotography Gear or Laptop](#bring-your-own-astrophotography-gear-or-laptop)
