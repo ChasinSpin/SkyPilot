@@ -13,15 +13,27 @@
 
 The following is a list of items that would up the capability of the C14 for astrophotography purposes. It's organized in stages of functionality.
 
-## Stage 1 - Astrophotography
+## Phase 1 - Plate Solving (Completed)
 
-This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 focal reducer). It's a one shot color (OSC) camera.
+Plate solving is needed for accurate targeting of objects. This phase uses a guide camera on the Orion ST80 combined with an ASIAIR to provide plate solve ability. When Phase 2 is complete, the guide camera will be repurposed into a guide camera and the main camera will be doing the plate solving. 
+
+| Item | Price | 
+| ---- | ----- |
+| [ZWO ASIAIR PLUS 256GB (ZWO-AIRPLUS-256)](https://all-startelescope.com/products/zwo-asiair-plus-256gb-zwo-airplus-256) | $424.58 |
+| [ZWO ASI174Mini Monochrome Astronomy Camera (ASI174MINI)](https://all-startelescope.com/products/zwo-asi174mini-usb2-0-mono-asi174mini) | $566.58 CAD | 
+| [ZWO Finder Shoe for ASIAIR PRO and Guide Scope (ZWO-FS-II)](https://all-startelescope.com/products/zwo-zwo-fs) | $25.56 CAD |
+
+This has been donated to the club by Daniel and Nancy Boychuk.
+
+## Phase 2 - Astrophotography
+
+This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 focal reducer). It's a one shot color (OSC) camera. It provides the ability for club members to take astrophotography data/images/scientific research on the clubs C14.
 
 | Item | Price | 
 | ---- | ----- |
 | [ZWO ASI2600MC Pro  ASI2600MC-P](https://all-startelescope.com/products/zwo-asi2600-pro-usb3-0-cooled-color-astronomy-camera-asi2600mc-p) | $2128.58 CAD |
 
-## Stage 2 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography
+## Phase 3 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography
 
 The astrograph will be piggybacked on the C14 and provides widefield capability for imaging at 264mm focal length and f/4.8.
 
@@ -34,7 +46,7 @@ The aiming-device is a pan/tilt for the astrography to align it with the main op
 | [Askar SQA55 Quintuplet Refractive Astrograph](https://all-startelescope.com/products/askar-sqa55-quintuplet-refractive-astrograph-sqa55) | $1079.95 CAD |
 | [ADM Mini-MAX ALT/AZ Aiming Device. Male Dovetail Version](https://www.admaccessories.com/product/mini-max-altaz-aiming-device-male-dovetail-version/) | $339.00 USD ($574.58 CAD) |
 
-## Stage 3 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
+## Phase 4 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
 
 There are newer filters now available which can provide good narrowband imaging on one shot color cameras.  This setup is for 2 filters (HA/OIII dual band and SII/OIII dual band) than can be used to provide 3 band data for narrowband imaging.
 
