@@ -77,9 +77,9 @@ The following are the 2 filters, and the filter drawer and draw holders for them
 | Vendor | Product | Price | Currency | Paid By |
 | ------ | ------- | ----- | -------- | ------- |
 | Ellumiglow | 15" EL Flat Panel Kit, inverter, and 2 pieces frosted acrylic | $348.70 | CAD | Donated by Khalid and Vinh Vo, purchased by Mark |
-| DigiKey | Electronic Components for Goto | $264.01 | CAD | Mark |
+| DigiKey | Electronic Components for Goto | $264.01 | CAD | Donated by Alan and Mark |
 | PiFinder | PiFinder PlateSolver | $230.00 | USD | Mark |
-| AliExpress | 100:1 Strain Wave / Harmonic Gear for DEC Axis | $209.33 | CAD | Mark | 
+| AliExpress | 100:1 Strain Wave / Harmonic Gear for DEC Axis | $209.33 | CAD | Donated Mike, Khalid and Mark | 
 | Mark's Stock | Raspberry Pi 4 Model B - 8GB | $111.47 (Digikey) | CAD | Mark |
 | Amazon | GPS Antennas, RG174 Coax 50ft, Camera Lens, SMA Female, SMA Male, DB15 Breakout, SMA Male-To-Female | $102.18 | CAD | Mark |
 | Amazon | RG174 Coax 50ft (GPS wiring), USB Power Extension Cable, Raspberry Pi PSU | $57.26 | CAD | Mark |
