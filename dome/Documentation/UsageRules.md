@@ -206,7 +206,7 @@ To control SkyPilot via Sky Safari, you must setup the connection as follows in 
 4. Scope Type: Meade LX200 Classic
 5. (Tap Next)
 6. IP Address: 192.168.1.200
-7. Port Number: 9998
+7. Port Number: 9999
 8. Preset Name: WCO SkyPilot
 9. Set Telescope Time & Location: THIS MUST BE SWITCHED OFF!
 10. Readout Rate: 4 per second
