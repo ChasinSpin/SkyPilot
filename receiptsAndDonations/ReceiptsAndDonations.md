@@ -14,7 +14,13 @@
 
 The following is a list of items that would up the capability of the C14 for astrophotography purposes. It's organized in stages of functionality.
 
-## Phase 1 - Plate Solving (Completed)
+## Phase 1 - Add "Goto" to the C14 (Completed)
+
+Build a custom goto system for the C14 to turn manual operation into automated with goto and auto-guiding capability.  Designed by Mark Simpson using 3D printed parts and a strainwave gear for declination, it leverages the manual mount/fork structure for durability and adds motion to both axis.
+
+This phase has been completed.  Resolution is 0.25 arc seconds, and guiding is 0.5 arc seconds which is better than the 2 arc seconds needed for astrophotography.
+
+## Phase 2 - Plate Solving (Completed)
 
 Plate solving is needed for accurate targeting of objects. This phase uses a guide camera on the Orion ST80 combined with an ASIAIR to provide plate solve ability. When Phase 2 is complete, the guide camera will be repurposed into a guide camera and the main camera will be doing the plate solving. 
 
@@ -26,7 +32,7 @@ Plate solving is needed for accurate targeting of objects. This phase uses a gui
 
 This has been donated to the club by Daniel and Nancy Boychuk.
 
-## Phase 2 - Astrophotography
+## Phase 3 - Astrophotography
 
 This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 focal reducer). It's a one shot color (OSC) camera. It provides the ability for club members to take astrophotography data/images/scientific research on the clubs C14.
 
@@ -34,7 +40,9 @@ This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 foca
 | ---- | ----- |
 | [ZWO ASI2600MC Pro  ASI2600MC-P](https://all-startelescope.com/products/zwo-asi2600-pro-usb3-0-cooled-color-astronomy-camera-asi2600mc-p) | $2128.58 CAD |
 
-## Phase 3 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography
+Additional to this phase is the flat panel which has already been purchased via club donations, when it was on discount at Christmas.
+
+## Phase 4 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography
 
 The astrograph will be piggybacked on the C14 and provides widefield capability for imaging at 264mm focal length and f/4.8.
 
@@ -47,7 +55,7 @@ The aiming-device is a pan/tilt for the astrography to align it with the main op
 | [Askar SQA55 Quintuplet Refractive Astrograph](https://all-startelescope.com/products/askar-sqa55-quintuplet-refractive-astrograph-sqa55) | $1079.95 CAD |
 | [ADM Mini-MAX ALT/AZ Aiming Device. Male Dovetail Version](https://www.admaccessories.com/product/mini-max-altaz-aiming-device-male-dovetail-version/) | $339.00 USD ($574.58 CAD) |
 
-## Phase 4 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
+## Phase 5 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
 
 There are newer filters now available which can provide good narrowband imaging on one shot color cameras.  This setup is for 2 filters (HA/OIII dual band and SII/OIII dual band) than can be used to provide 3 band data for narrowband imaging.
 
@@ -58,7 +66,7 @@ Narrowband imaging is immune to light pollution and moonlight:
 * WCO is in Bortle 5 skies (which is fairly heavy light pollution), in narrowband, targets are the same as if you were in a bortle 1 or 2 skies. It's possible to image also in the northern part of the sky, or towards Okotoks, where the light domes are worse.
 * It's possible to image during a full moon without gradients when positioned at least 90 degrees away from the moon. The results are the same as a moonless night.
 
-The following are the 2 filters, and the filter drawer and draw holders for them.
+The following are the 2 filters, and the filter drawer and holders for them.
 
 | Item | Price | 
 | ---- | ----- |
