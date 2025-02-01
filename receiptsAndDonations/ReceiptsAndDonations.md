@@ -1,18 +1,6 @@
-# Donations
-
-| Person | Date | Item | Amount |
-| ------ | ---- | ---- | ------ | 
-| Khalid Qureshi | 2024-11-27 | 50% Flat Panel and $25.65 towards strainwave gear for DEC| $200.00 |
-| Vinh Vo | 2024-11-28 | 50% Flat Panel | $174.35 |
-| Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
-| Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
-| Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
-| Mike Rossier | 2025-01-31 | Part payment towards ASI2600MC-Pro in Phase 2 | $250.00 |
-| Mark Simpson | See items below | See receipts below |
-
 # Wish List (Astrophotography)
 
-The following is a list of items that would up the capability of the C14 for astrophotography purposes. It's organized in stages of functionality.
+The following is a list of items that will improve the club's C14 as a resource for astrophotography and outreach / member use.  If you can help in anyway, it would be appreciated by members.
 
 ## Phase 1 - Add "Goto" to the C14 (Completed)
 
@@ -39,6 +27,7 @@ This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 foca
 | Item | Price | 
 | ---- | ----- |
 | [ZWO ASI2600MC Pro  ASI2600MC-P](https://all-startelescope.com/products/zwo-asi2600-pro-usb3-0-cooled-color-astronomy-camera-asi2600mc-p) | $2128.58 CAD |
+| **TOTAL (inc. shipping and tax)** | $2289.61 CAD |
 
 Additional to this phase is the flat panel which has already been purchased via club donations, when it was on discount at Christmas.
 
@@ -54,6 +43,7 @@ The aiming-device is a pan/tilt for the astrography to align it with the main op
 | ---- | ----- |
 | [Askar SQA55 Quintuplet Refractive Astrograph](https://all-startelescope.com/products/askar-sqa55-quintuplet-refractive-astrograph-sqa55) | $1079.95 CAD |
 | [ADM Mini-MAX ALT/AZ Aiming Device. Male Dovetail Version](https://www.admaccessories.com/product/mini-max-altaz-aiming-device-male-dovetail-version/) | $339.00 USD ($574.58 CAD) |
+| **TOTAL (inc. shipping, tax, duties)** | $1872.55 CAD |
 
 ## Phase 5 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
 
@@ -74,12 +64,25 @@ The following are the 2 filters, and the filter drawer and holders for them.
 | [ZWO Filter Drawer for 2" Mounted Filter (ZWO-FD-M54-II)](https://all-startelescope.com/products/zwo-filter-drawer-for-2-mounted-filter-zwo-fd-m54) | $112.18 CAD |
 | [ZWO M54-M48 Adapter for 2" EFW and M54 Filter Drawer (ZWO M54M-M48F-2)](https://all-startelescope.com/products/zwo-m54-m48-adapter-for-2-efw-and-m54-filter-drawer-zwo-m54m-m48f-2) | $17.04 CAD |
 | [ZWO Filter Holder for Filter Drawer (ZWO-F-HLDR)](https://all-startelescope.com/products/zwo-filter-holder-for-nikon-and-eos-filter-drawer-zwo-f-hldr-dslr#ast-product-tabs-top-anchor) | $49.70 CAD |
+| **TOTAL (inc. shipping and tax)** | 1072.79 CAD |
 
 ## Other
 | Item | Price | 
 | ---- | ----- |
 | iPad for those that don't have iPhones | an older iPad is fine |
 | Charger |  |
+
+# Donations
+
+| Person | Date | Item | Amount |
+| ------ | ---- | ---- | ------ | 
+| Khalid Qureshi | 2024-11-27 | 50% Flat Panel and $25.65 towards strainwave gear for DEC| $200.00 |
+| Vinh Vo | 2024-11-28 | 50% Flat Panel | $174.35 |
+| Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
+| Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
+| Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
+| Mike Rossier | 2025-01-31 | Part payment towards ASI2600MC-Pro in Phase 2 | $250.00 |
+| Mark Simpson | See items below | See receipts below |
 
 # Receipts
 
