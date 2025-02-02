@@ -81,7 +81,10 @@ The following are the 2 filters, and the filter drawer and holders for them.
 | Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
 | Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
 | Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
-| Mike Rossier | 2025-01-31 | Part payment towards ASI2600MC-Pro in Phase 2 | $250.00 |
+| Mike Rossier | 2025-01-31 | Part payment towards ASI2600MC-Pro in Phase 3 | $250.00 |
+| Jerry Medeiros | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $300.00 |
+| Vinh Vo | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $120 |
+| Eric Klaszus | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $200 |
 | Mark Simpson | See items below | See receipts below |
 
 # Receipts

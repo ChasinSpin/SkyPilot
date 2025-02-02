@@ -194,6 +194,23 @@ Replace batteries
 
 Power cycle hand controller.  If that doesn't fix it, switch off hand controller, power cycle SkyPilot mount, and switch on hand controller and wait for connection.
 
+#### Site Manager Only
+
+*Only for Site Manager Use. There is a pointing model that has been created that will be lost if you enter this menu, and pointing will be degraded*
+
+For access to Site Manager menu, hold F1 and F2 and press W button to enter menu.
+
+##### 3-Star Alignment
+
+1. Unpark
+2. With Sky-Safari, "Goto a star (or planet)", center star in silver finder scope using joystick and Click Align.  Use a star away from NCP and not too close to the ground.
+3. Enter 3 Star Align menu item (position in Sky Safari now moves to NCP)
+4. Click on the original target in 2., and click Align to return the bullseye to the target in 2.  The 1st star has now been entered.
+5. Locate a 2nd star, away from the 1st star, click it and click Goto.  Center star in silver finder scope using joystick and Click Align.  The 2nd star has now been entered.
+6. Locate a 3rd star, away from the 1st star, click it and click Goto.  Center star in silver finder scope using joystick and Click Align.  The 2nd star has now been entered.
+
+Pointing model has now been updated.  OnStepX web browser will say "Complete" in the Align panel and have the amount of offset for the pointing model (Mount relative to NCP).  If it is ever zero, then the pointing model has been lost.  It can be reset by just choosing 3 Star Align (but not entering stars), and Park and Unpark.
+
 ## Sky Safari
 
 SkySafari Plus or Pro (available on tablet and phone for iOS or Android) will connect wirelessly with the SkyPilot goto controller.  Note: SkySafari regular (Basic) does not have telescope control.
