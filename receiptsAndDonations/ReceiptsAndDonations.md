@@ -79,9 +79,25 @@ The last phase, are accessories to complete the system. Filters holders and draw
 | [Celestron 48mm T-Adapter for EdgeHS 9.25", 11", 14"](https://davidastro.com/products/celestron-48mm-t-adapter-for-edgehd-9-25-11-and-14) | $101.00 CAD |
 | [M48x0.75 extension tubes](https://www.amazon.ca/dp/B0BSGHFX44?ref_=pe_125682630_1045605200_fed_asin_title) | $12.00 CAD |
 | [SCT-M48 Adapter - Williams Optics - D-SCT-TA](https://williamoptics.com/products/sct-m48-adapter?_pos=1&_sid=63479adb4&_ss=r) | $43.00 USD (exchange rate 1.44) |
-| **TOTAL (inc. shipping and tax)** | $509.88 CAD |
+| [TP-Link Deco Mesh With Ethernet Backhaul](https://www.amazon.ca/gp/product/B07NF6V8SC) | $129.99 CAD |
+| **TOTAL (inc. shipping and tax)** | $646.37 CAD |
 
 *Note: Likely a bit of import duty on the Williams Optics D-SCT-TA: TBD*
+
+## Phase 7 - Electronic Focusing
+
+To simplify focusing in general and to achieve pinpoint focusing for astrophotography (which is hard to achieve manually with a 14" SCT), it would be beneficial to have electronic focusing for the C14 and piggybacked Sharpstar 76 EDPH.
+
+For the C14, as it's visual too, we would require a hand controller. For both scopes,  temperature sensors would be useful to trigger automatic refocusing on temperature changes.
+
+| Item | Price | 
+| ---- | ----- |
+| 2 x [ZWO EAF 5V Electronic Automatic Focuser (ZWO-EAF-5V)](https://all-startelescope.com/products/zwo-eaf) | $423.16 CAD |
+| 2 x [ZWO Temperature Sensor of EAF (ZWO-EAF-SENSOR)](https://all-startelescope.com/products/zwo-temperature-sensor-of-eaf-zwo-eaf-sensor) | $28.12 CAD |
+| 1 x [ZWO EAF Bracket for Celestron C11 & C14 (ZWO-EAF-C11-C14)](https://all-startelescope.com/products/zwo-eaf-bracket-for-celestron-c11-and-c14-zwo-eaf-c11-c14) | $55.38 CAD |
+| 1 x [ZWO Hand Controller for EAF (ZWO-EAF-HC)](https://all-startelescope.com/products/zwo-hand-controller-of-eaf-zwo-eaf-hc) | $56.66 CAD |
+| **TOTAL (inc. shipping and tax)** |  $591.49 CAD |
+
 
 ## Other
 | Item | Price | 
@@ -104,7 +120,7 @@ The last phase, are accessories to complete the system. Filters holders and draw
 | Vinh Vo | 2025-02-01 | Part payment towards Askar Filter - D2 | $120 |
 | Eric Klaszus | 2025-02-01 | Part payment towards Askar Filter - D2 | $200 |
 | Alan K Chan | 2025-02-02 | ADM Adapter Plate and M48 Extender | $100 |
-| Terry Martin 2025-02-02 | Various items | Determine Value |
+| Terry Martin 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | Determine Value For Nisha |
 | Mark Simpson | See items below | See receipts below |
 
 # Receipts
