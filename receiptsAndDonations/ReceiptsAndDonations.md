@@ -20,7 +20,7 @@ Plate solving is needed for accurate targeting of objects. This phase uses a gui
 
 This has been donated to the club by Daniel and Nancy Boychuk.
 
-## Phase 3 - Astrophotography
+## Phase 3 - Astrophotography (Completed)
 
 This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 focal reducer). It's a one shot color (OSC) camera. It provides the ability for club members to take astrophotography data/images/scientific research on the clubs C14.
 
@@ -31,7 +31,7 @@ This is to be used on C14 main optical axis @3910mm and @2300mm (with f/6.3 foca
 
 Additional to this phase is the flat panel which has already been purchased via club donations, when it was on discount at Christmas.
 
-## Phase 4 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography
+## Phase 4 - Add Accessibility and Outreach, Cold Weather Tours, Widefield Astrophotography (Completed)
 
 The astrograph will be piggybacked on the C14 and provides widefield capability for imaging at 264mm focal length and f/4.8.
 
@@ -45,7 +45,7 @@ The aiming-device is a pan/tilt for the astrography to align it with the main op
 | [ADM Mini-MAX ALT/AZ Aiming Device. Male Dovetail Version](https://www.admaccessories.com/product/mini-max-altaz-aiming-device-male-dovetail-version/) | $339.00 USD ($574.58 CAD) |
 | **TOTAL (inc. shipping, tax, duties)** | $1872.55 CAD |
 
-## Phase 5 - Add Narrowband (HA, SII, OIII) on C14 and Widefield
+## Phase 5 - Add Narrowband (HA, SII, OIII) on C14 and Widefield (Completed)
 
 There are newer filters now available which can provide good narrowband imaging on one shot color cameras.  This setup is for 2 filters (HA/OIII dual band and SII/OIII dual band) than can be used to provide 3 band data for narrowband imaging.
 
@@ -56,15 +56,32 @@ Narrowband imaging is immune to light pollution and moonlight:
 * WCO is in Bortle 5 skies (which is fairly heavy light pollution), in narrowband, targets are the same as if you were in a bortle 1 or 2 skies. It's possible to image also in the northern part of the sky, or towards Okotoks, where the light domes are worse.
 * It's possible to image during a full moon without gradients when positioned at least 90 degrees away from the moon. The results are the same as a moonless night.
 
-The following are the 2 filters, and the filter drawer and holders for them.
+The following are the 2 filters, a bracket to hold the widefield scope and backfocus adjustment spacer for the imaging train.
 
 | Item | Price | 
 | ---- | ----- |
-| [Askar Colour Magic D Duo-Band Filters (COLOUR-MAGIC-D) Filter Package (D1 & D2 Filters)](https://all-startelescope.com/products/askar-colour-magic-d-duo-band-filters-colour-magic-d?variant=44916326793468) | $741.15 CAD |
-| [ZWO Filter Drawer for 2" Mounted Filter (ZWO-FD-M54-II)](https://all-startelescope.com/products/zwo-filter-drawer-for-2-mounted-filter-zwo-fd-m54) | $112.18 CAD |
-| [ZWO M54-M48 Adapter for 2" EFW and M54 Filter Drawer (ZWO M54M-M48F-2)](https://all-startelescope.com/products/zwo-m54-m48-adapter-for-2-efw-and-m54-filter-drawer-zwo-m54m-m48f-2) | $17.04 CAD |
-| [ZWO Filter Holder for Filter Drawer (ZWO-F-HLDR)](https://all-startelescope.com/products/zwo-filter-holder-for-nikon-and-eos-filter-drawer-zwo-f-hldr-dslr#ast-product-tabs-top-anchor) | $49.70 CAD |
-| **TOTAL (inc. shipping and tax)** | 1072.79 CAD |
+| [ADM Accessories Dovetail Plate Adapter (DPA)](https://all-startelescope.com/products/adm-dovetail-plate-adapter) | $82.95 CAD |
+| [ZWO M48(male)-M48(female) extender (16.5mm length)](https://all-startelescope.com/products/zwo-m48male-m48famale-extender16-5mm-length-zwo-m48-ext16-5) | $32.66 CAD |
+| [Askar Color Magic D Duo-Band Filters - D1](https://all-startelescope.com/products/askar-colour-magic-d-duo-band-filters-colour-magic-d?variant=44916326826236) | $401.95 CAD |
+| [Askar Color Magic D Duo-Band Filters - D2](https://all-startelescope.com/products/askar-colour-magic-d-duo-band-filters-colour-magic-d?variant=44916326859004) | $401.95 CAD |
+| **TOTAL (inc. shipping and tax)** | 983.87 CAD |
+
+*Short by: $13.87*
+
+## Phase 6 - Accessories
+
+The last phase, are accessories to complete the system. Filters holders and drawer (3 for filters and 1 for blanking off for broadband). Celestron 48mm back focus assembly for native focal length imaging.
+
+| Item | Price | 
+| ---- | ----- |
+| 3 x [ZWO Filter Holder V2](https://davidastro.com/products/zwo-filter-holder-v2) | $150.00 CAD |
+| [ZWO Filter Drawer V2](https://davidastro.com/products/zwo-filter-drawer-v2-m54) | $112.00 CAD |
+| [Celestron 48mm T-Adapter for EdgeHS 9.25", 11", 14"](https://davidastro.com/products/celestron-48mm-t-adapter-for-edgehd-9-25-11-and-14) | $101.00 CAD |
+| [M48x0.75 extension tubes](https://www.amazon.ca/dp/B0BSGHFX44?ref_=pe_125682630_1045605200_fed_asin_title) | $12.00 CAD |
+| [SCT-M48 Adapter - Williams Optics - D-SCT-TA](https://williamoptics.com/products/sct-m48-adapter?_pos=1&_sid=63479adb4&_ss=r) | $43.00 USD (exchange rate 1.44) |
+| **TOTAL (inc. shipping and tax)** | $509.88 CAD |
+
+*Note: Likely a bit of import duty on the Williams Optics D-SCT-TA: TBD*
 
 ## Other
 | Item | Price | 
@@ -80,11 +97,14 @@ The following are the 2 filters, and the filter drawer and holders for them.
 | Vinh Vo | 2024-11-28 | 50% Flat Panel | $174.35 |
 | Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
 | Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
+| Submitted to Nisha - up to this point | - | - | - |
 | Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
-| Mike Rossier | 2025-01-31 | Part payment towards ASI2600MC-Pro in Phase 3 | $250.00 |
-| Jerry Medeiros | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $300.00 |
-| Vinh Vo | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $120 |
-| Eric Klaszus | 2025-02-01 | Part payment towards ASI2600MC-Pro in Phase 3 | $200 |
+| Mike Rossier | 2025-01-31 | Part payment toward Askar Filter - D1 | $250.00 |
+| Jerry Medeiros | 2025-02-01 | Part payment towards Askar Filter - D1 and D2 | $300.00 |
+| Vinh Vo | 2025-02-01 | Part payment towards Askar Filter - D2 | $120 |
+| Eric Klaszus | 2025-02-01 | Part payment towards Askar Filter - D2 | $200 |
+| Alan K Chan | 2025-02-02 | ADM Adapter Plate and M48 Extender | $100 |
+| Terry Martin 2025-02-02 | Various items | Determine Value |
 | Mark Simpson | See items below | See receipts below |
 
 # Receipts
