@@ -27,10 +27,10 @@ This level of access includes the visual level, provides access to use the club'
 Capabilities are:
 
 * Bring Your Own Astrophotography Gear
-* Auto Guiding - *Future Capability*
-* OSC APS-C Sensor - *Future Capability*
-* Narrowband Filters - *Future Capability*
-* C14 and Widefield Imaging (3910mm and 250mm focal length) - *Future Capability*
+* Auto Guiding
+* OSC APS-C Sensor
+* Narrowband Filters
+* C14 and Widefield Imaging (3910mm, 2400mm and 342mm focal lengths)
 
 # Equipment Rules and Usage
 
@@ -41,7 +41,7 @@ Capabilities are:
 * [ASIAIR](#asiair)
 * [Bring Your Own Astrophotography Gear or Laptop](#bring-your-own-astrophotography-gear-or-laptop)
 * [Flat Panel](#flat-panel)
-* [Filters - Future Capability](#filters---future-capability)
+* [Filters](#filters)
 * [Usage Patterns](#usage-patterns)
 
 ## General
@@ -52,9 +52,7 @@ Capabilities are:
 
 * Adjust any equipment, alignment, modify, rotate, remove (even temporarily), clean lenses/filters/sensors, without prior authorization of the Site Manager.  This includes the guide/finder scopes, cameras, and Telrad.
 * Place club equipment on the pier (where it can fall) or on the shelf near the trash can (where it can fall into the trash can).
-* Remove any equipment from the dome, including the Flat Panel, Cameras, Filters and do NOT use any of the equipment on any scopes other than the C14
-
-
+* Remove any equipment from the dome, including the Flat Panel, Cameras, Filters and do NOT use any of the equipment on any scopes other than the C14. The equipment is only for use on the C14.
 
 ## SkyPilot (Goto)
 
@@ -106,7 +104,7 @@ Capabilities are:
 	* Tap Platesolve
 	* Tap Sync and Goto
 	* Take photo (target should be centered)
-	* ALWAYS SHUTDOWN ASIAIR before switching off / removing power
+	* ALWAYS SHUTDOWN ASIAIR before switching off / removing power to avoid corruption
 
 	ASTRID:
 	
@@ -118,13 +116,11 @@ Capabilities are:
 	* Take photo (target should be centered)
 	* ALWAYS SHUTDOWN ASTRID before switching off / removing power
 
-### Temperature Limits (Preliminary):
+### Temperature Limits:
 
 These may be changed as we test:
 
-* < -20C:	Scope cannot be used
-* -10C to -20C: Change Max Slew Rate to "Cold Weather"
-* Above -10C: Change Max Slew Rate to "Normal"
+* < -20C:	Scope cannot be used due to potential for dome slit to jamb
 
 Note: "Insane Mode" can only be used > 0C
 
@@ -184,7 +180,7 @@ If the temperature limit is inappropriate for the slew rate, the steppers will s
 
 #### White error text on display
 
-If you are in the dome and received the text (i.e. not weak wifi), then take a photo of the text and send to Mark.  Then power cycle the handset to recover.
+If you are in the dome and see white text on the display (i.e. not weak wifi), then take a photo of the text and send to Mark.  Then power cycle the handset to recover.
 
 #### Warning about low power or power drop
 
@@ -192,7 +188,7 @@ Replace batteries
 
 #### Hand controller frozen
 
-Power cycle hand controller.  If that doesn't fix it, switch off hand controller, power cycle SkyPilot mount, and switch on hand controller and wait for connection.
+Power cycle hand controller.  If that doesn't fix it, switch off the hand controller, power cycle SkyPilot mount, switch on the hand controller, and wait for the connection.
 
 #### Site Manager Only
 
@@ -245,20 +241,20 @@ To control SkyPilot via Sky Safari, you must setup the connection as follows in 
 
 ## ASIAIR
 
-Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
+The ASIAIR can be used for platesolving provided the 2600MC Pro camera is attached to the C14 or Widefield scope.  The ASIAIR software can be downloaded for free from the Apple or Google Appstore on your iPhone, Android or Tablet.
 
 ### DO NOT:
 
-* Change settings on the ASIAIR
-* Do not plug in your own astrophotography equipment
+* Change settings on the ASIAIR other than the ones listed below
+* Do not retrain the Autoguider or change Autoguiding settings
+* Do not plug in your own astrophotography equipment to the ASIAIR
 * Connect your laptop to the ASIAIR
-* Connect your USB thumbdrive to the ASIAIR at this time
-* Remove any SD Cards
 
 ### DO:
 
 * Control the ASIAIR via the ASIAIR app on your phone. If you don't have this app, do not power on the ASIAIR
 * Shutdown the ASIAIR before removing power to avoid corruption
+* After shutdown, wait 15 seconds and switch off ASIAIR on rocker switch on the bottom
 
 ### Usage:
 
@@ -308,6 +304,7 @@ Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
 * Connect a laptop or other device to any of the clubs equipment, other than over Wifi
 * Change any settings on the ASIAIR
 * Use any gear belonging to the club with your devices, i.e. do not connect any of the clubs cameras to your laptop for example
+* Attach any cameras to the Widefield scope other than the clubs OSC Camera
 
 #### DO
 
@@ -315,6 +312,8 @@ Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
 * Replace the visual train on the visual back after use, ready for the next person
 
 ## Flat Panel
+
+The flat panel is expensive and easily damaged if not careful.
 
 ### Rules:
 
@@ -326,7 +325,7 @@ Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
 #### DO:
 
 * Always cover with the protective cover and put away in the cupboard when not actively taking a flat field
-* Be careful when using to avoiding scratching
+* Be careful when using to avoiding scratching surface
 * Do not clean, it scratches easily. If it needs cleaning, contact the Site Manager
 
 #### Usage:
@@ -336,15 +335,30 @@ Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
 * Connect 12V DC Power from the pier to the flat panel
 * Take flats (only necessary to take 5 images optimized for about 30% on the histogram)
 
-## Filters - Future Capability
+## Filters
+
+The filters are expensive ($450) a piece and are useless if accidentally scratched or damaged.
+
+### Askar ColorMagic D1:
+
+Narrowband Ha and OIII, reduced halos on bright stars
+
+### Askar ColorMagic D2:
+
+Narrowband SII and OIII, reduced halos on bright stars
+
+### OptoLong L-Extreme
+
+Narrowband Ha and OIII
 
 ### Rules:
 
 #### DO NOT:
 
-* Blow on filters, spit is impossible to clean off once set in
-* Clean filters, contact site manager if a filter needs clearning
-* Store filter outside of filter container. Place immediately in container. This avoids dust which impacts imaging.c
+* Blow on filters, spit is acid, will etch filters and is impossible to clean off once set in
+* Clean filters, contact site manager if a filter needs cleaning
+* Store filter outside of filter container. Place immediately in container. This avoids dust which impacts imaging.
+* Put filter in at an angle into cases and filter drawers, it's possible to scratch the filter with the case.
 
 # Usage Patterns
 
@@ -366,31 +380,31 @@ Currently, the ASIAIR is only to be used for platesolving via the Orion ST80.
 * Camera: None
 * Camera Filter: None
 
-## Visual Tour and Accessibility - Future Capability
+## Visual Tour and Accessibility
 
 * Output: Focuser/Lenses attached to Visual Back and streaming widefield scope to ClubHouse TV and TV in dome
 * Control: SkyPilot Hand Controller and ASIAIR
 * Fine Positioning: Platesolving (ASIAIR) via the 2600MC Pro
 * Autoguiding: Yes (needed for Live Stacking), on Orion ST80
 * Camera: 2600MC Pro on widefield scope
-* Camera Filtera: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
+* Camera Filter: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
 
-## Astrophotography @ 3910mm, f6.3 focal reducer (optional) - Future Capability
+## Astrophotography @ 3910mm, f6.3 focal reducer (optional)
 
 * Output: 2600MC Pro attached to visual back and streaming/control to users phone/tablet. (note clubhouse TV/dome TV are an option here but no control)
 * Control: SkyPilot Hand Controller and ASIAIR
 * Fine Positioning: Platesolving (ASIAIR) via the 2600MC Pro
 * Autoguiding: Yes, on Orion ST80
 * Camera: 2600MC Pro on visual back
-* Camera Filtera: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
+* Camera Filter: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
 
-## Astrophotography Widefield - Future Capability
+## Astrophotography Widefield
 
 * Output: 2600MC Pro attached to piggybacked widefield astrograph and streaming/control to users phone/tablet. (note clubhouse TV/dome TV are an option here but no control)
 * Control: SkyPilot Hand Controller and ASIAIR
 * Fine Positioning: Platesolving (ASIAIR) via the 2600MC Pro
 * Autoguiding: Yes, on Orion ST80
 * Camera: 2600MC Pro on widefield astrograph
-* Camera Filtera: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
+* Camera Filter: OSC Narrowband (for planetary/emission nebula) or regular broadband (no filter) - (galaxies/reflection nebula)
 
 

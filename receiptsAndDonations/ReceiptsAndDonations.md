@@ -70,19 +70,21 @@ The following are the 2 filters, a bracket to hold the widefield scope and backf
 
 ## Phase 6 - Accessories
 
-The last phase, are accessories to complete the system. Filters holders and drawer (3 for filters and 1 for blanking off for broadband). Celestron 48mm back focus assembly for native focal length imaging.
+Accessories to complete the system. Filters holders and drawer (3 for filters and 1 for blanking off for broadband). Celestron 48mm back focus assembly for native focal length imaging.  Flat Panel for piggybacked astrograph.
 
 | Item | Price | 
 | ---- | ----- |
-| 3 x [ZWO Filter Holder V2](https://davidastro.com/products/zwo-filter-holder-v2) | $150.00 CAD |
-| [ZWO Filter Drawer V2](https://davidastro.com/products/zwo-filter-drawer-v2-m54) | $112.00 CAD |
-| [Celestron 48mm T-Adapter for EdgeHS 9.25", 11", 14"](https://davidastro.com/products/celestron-48mm-t-adapter-for-edgehd-9-25-11-and-14) | $101.00 CAD |
-| [M48x0.75 extension tubes](https://www.amazon.ca/dp/B0BSGHFX44?ref_=pe_125682630_1045605200_fed_asin_title) | $12.00 CAD |
-| [SCT-M48 Adapter - Williams Optics - D-SCT-TA](https://williamoptics.com/products/sct-m48-adapter?_pos=1&_sid=63479adb4&_ss=r) | $43.00 USD (exchange rate 1.44) |
-| [TP-Link Deco Mesh With Ethernet Backhaul](https://www.amazon.ca/gp/product/B07NF6V8SC) | $129.99 CAD |
-| **TOTAL (inc. shipping and tax)** | $646.37 CAD |
+| 3 x [ZWO Filter Holder V2](https://davidastro.com/products/zwo-filter-holder-v2) | See below |
+| [ZWO Filter Drawer V2](https://davidastro.com/products/zwo-filter-drawer-v2-m54) | See below |
+| [Celestron 48mm T-Adapter for EdgeHS 9.25", 11", 14"](https://davidastro.com/products/celestron-48mm-t-adapter-for-edgehd-9-25-11-and-14) | See below |
+| Total David's Astro (inc GST and shipping) | $400.80 CAD |
+| [M48x0.75 extension tubes](https://www.amazon.ca/dp/B0BSGHFX44?ref_=pe_125682630_1045605200_fed_asin_title) | $12.60 CAD |
+| [Camera Holder/Cover](https://www.amazon.ca/dp/B00VZYRKNA) | $25.66 CAD |
+| [SCT-M48 Adapter - Williams Optics - D-SCT-TA](https://williamoptics.com/products/sct-m48-adapter?_pos=1&_sid=63479adb4&_ss=r) | $96.48 CAD ($67.00 USD exchange rate 1.44) |
+| [Astrophotography 5in EL Panel Circle Flat Frame Kit]() | $201.00 CAD |
+| **TOTAL (inc. shipping and tax)** | $736.54 CAD |
 
-*Note: Likely a bit of import duty on the Williams Optics D-SCT-TA: TBD*
+
 
 ## Phase 7 - Electronic Focusing
 
@@ -98,6 +100,7 @@ For the C14, as it's visual too, we would require a hand controller. For both sc
 | 1 x [ZWO Hand Controller for EAF (ZWO-EAF-HC)](https://all-startelescope.com/products/zwo-hand-controller-of-eaf-zwo-eaf-hc) | $56.66 CAD |
 | **TOTAL (inc. shipping and tax)** |  $591.49 CAD |
 
+All-Star Telescope have offered to pay 50% of the items in Phase 7 if we can raise the other 50% in donations.
 
 ## Other
 | Item | Price | 
@@ -113,14 +116,14 @@ For the C14, as it's visual too, we would require a hand controller. For both sc
 | Vinh Vo | 2024-11-28 | 50% Flat Panel | $174.35 |
 | Alan K Chan | 2024-12-02 | Part payment towards OnStepX Controller components | $125 |
 | Mike Rossier | 2024-12-23 | Part payment towards strainwave gear for DEC | $150.00 |
-| Submitted to Nisha - up to this point | - | - | - |
 | Daniel & Nancy Boychuck | 2025-01-29 | ASIAIR Plus 256, ASI174MM, Finder Shoe | $1086.99 (via donation to club) |
 | Mike Rossier | 2025-01-31 | Part payment toward Askar Filter - D1 | $250.00 |
 | Jerry Medeiros | 2025-02-01 | Part payment towards Askar Filter - D1 and D2 | $300.00 |
 | Vinh Vo | 2025-02-01 | Part payment towards Askar Filter - D2 | $120 |
 | Eric Klaszus | 2025-02-01 | Part payment towards Askar Filter - D2 | $200 |
 | Alan K Chan | 2025-02-02 | ADM Adapter Plate and M48 Extender | $100 |
-| Terry Martin 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | Determine Value For Nisha |
+| Terry Martin | 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | 4824.22 |
+| Submitted to Nisha - up to this point | - | - | - |
 | Mark Simpson | See items below | See receipts below |
 
 # Receipts
@@ -129,9 +132,7 @@ For the C14, as it's visual too, we would require a hand controller. For both sc
 | ------ | ------- | ----- | -------- | ------- |
 | Ellumiglow | 15" EL Flat Panel Kit, inverter, and 2 pieces frosted acrylic | $348.70 | CAD | Donated by Khalid and Vinh Vo, purchased by Mark |
 | DigiKey | Electronic Components for Goto | $264.01 | CAD | Donated by Alan and Mark |
-| PiFinder | PiFinder PlateSolver | $230.00 | USD | Mark |
 | AliExpress | 100:1 Strain Wave / Harmonic Gear for DEC Axis | $209.33 | CAD | Donated Mike, Khalid and Mark | 
-| Mark's Stock | Raspberry Pi 4 Model B - 8GB | $111.47 (Digikey) | CAD | Mark |
 | Amazon | GPS Antennas, RG174 Coax 50ft, Camera Lens, SMA Female, SMA Male, DB15 Breakout, SMA Male-To-Female | $102.18 | CAD | Mark |
 | Amazon | RG174 Coax 50ft (GPS wiring), USB Power Extension Cable, Raspberry Pi PSU | $57.26 | CAD | Mark |
 | Amazon | WEMOS, connectors for Goto | $29.38 | CAD | Mark |
