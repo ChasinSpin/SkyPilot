@@ -122,28 +122,8 @@ All-Star Telescope have offered to pay 50% of the items in Phase 7 if we can rai
 | Vinh Vo | 2025-02-01 | Part payment towards Askar Filter - D2 | $120 |
 | Eric Klaszus | 2025-02-01 | Part payment towards Askar Filter - D2 | $200 |
 | Alan K Chan | 2025-02-02 | ADM Adapter Plate and M48 Extender | $100 |
-| Terry Martin | 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | 4824.22 |
+| Terry Martin | 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | $4824.22 |
 | Submitted to Nisha - up to this point | - | - | - |
-| Mark Simpson | See items below | See receipts below |
-
-# Receipts
-
-| Vendor | Product | Price | Currency | Paid By |
-| ------ | ------- | ----- | -------- | ------- |
-| Ellumiglow | 15" EL Flat Panel Kit, inverter, and 2 pieces frosted acrylic | $348.70 | CAD | Donated by Khalid and Vinh Vo, purchased by Mark |
-| DigiKey | Electronic Components for Goto | $264.01 | CAD | Donated by Alan and Mark |
-| AliExpress | 100:1 Strain Wave / Harmonic Gear for DEC Axis | $209.33 | CAD | Donated Mike, Khalid and Mark | 
-| Amazon | GPS Antennas, RG174 Coax 50ft, Camera Lens, SMA Female, SMA Male, DB15 Breakout, SMA Male-To-Female | $102.18 | CAD | Mark |
-| Amazon | RG174 Coax 50ft (GPS wiring), USB Power Extension Cable, Raspberry Pi PSU | $57.26 | CAD | Mark |
-| Amazon | WEMOS, connectors for Goto | $29.38 | CAD | Mark |
-| Amazon | Bluetooth Serial Module, USB Cable | $41.99 | CAD | Mark | 
-| Amazon | Buzzer for dome slit | $9.17 | CAD | Mark |
-| Amazon | SMA Female to RP-SMA Male | $10.49 | CAD | Mark |
-| Amazon | SMA Cable RG58 | $20.99 | CAD | Mark |
-| AliExpress | Metal Case for Goto Electronics | $14.48 | CAD | Mark |
-| JLCPCB | PCB for Goto | $17.88 | USD | Mark |
-| Mark's Stock | 64GB SD Card | $19.67 (Amazon) | CAD | Mark |
-| Home Depot | Cable straps, Cable clamps, Utility Box and Cover for dome slit alarm | $21.40 | CAD | Mark |
-| Home Depot | Mounting brackets for GPS Antennas (Sim Angle 3") | $13.46 | CAD | Mark |
-
-
+| Trevor Gauthier | - | Planetary Camera | TBD |
+| Mark Simpson | 2024-11-01 - Present | SkyPilot Goto | $1631.32 |
+| **TOTAL** | | | $9161.88 |
