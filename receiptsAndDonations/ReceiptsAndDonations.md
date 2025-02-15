@@ -68,7 +68,7 @@ The following are the 2 filters, a bracket to hold the widefield scope and backf
 
 *Short by: $13.87*
 
-## Phase 6 - Accessories
+## Phase 6 - Accessories (Completed)
 
 Accessories to complete the system. Filters holders and drawer (3 for filters and 1 for blanking off for broadband). Celestron 48mm back focus assembly for native focal length imaging.  Flat Panel for piggybacked astrograph.
 
@@ -81,12 +81,11 @@ Accessories to complete the system. Filters holders and drawer (3 for filters an
 | [M48x0.75 extension tubes](https://www.amazon.ca/dp/B0BSGHFX44?ref_=pe_125682630_1045605200_fed_asin_title) | $12.60 CAD |
 | [Camera Holder/Cover](https://www.amazon.ca/dp/B00VZYRKNA) | $25.66 CAD |
 | [SCT-M48 Adapter - Williams Optics - D-SCT-TA](https://williamoptics.com/products/sct-m48-adapter?_pos=1&_sid=63479adb4&_ss=r) | $96.48 CAD ($67.00 USD exchange rate 1.44) |
-| [Astrophotography 5in EL Panel Circle Flat Frame Kit]() | $201.00 CAD |
-| **TOTAL (inc. shipping and tax)** | $736.54 CAD |
+| [Astrophotography 5in EL Panel Circle Flat Frame Kit]() | $194.40 CAD |
+| **TOTAL (inc. shipping and tax)** | $729.94 CAD |
 
 
-
-## Phase 7 - Electronic Focusing
+## Phase 7 - Electronic Focusing (Completed)
 
 To simplify focusing in general and to achieve pinpoint focusing for astrophotography (which is hard to achieve manually with a 14" SCT), it would be beneficial to have electronic focusing for the C14 and piggybacked Sharpstar 76 EDPH.
 
@@ -95,12 +94,13 @@ For the C14, as it's visual too, we would require a hand controller. For both sc
 | Item | Price | 
 | ---- | ----- |
 | 2 x [ZWO EAF 5V Electronic Automatic Focuser (ZWO-EAF-5V)](https://all-startelescope.com/products/zwo-eaf) | $423.16 CAD |
-| 2 x [ZWO Temperature Sensor of EAF (ZWO-EAF-SENSOR)](https://all-startelescope.com/products/zwo-temperature-sensor-of-eaf-zwo-eaf-sensor) | $28.12 CAD |
+| 1 x [ZWO Temperature Sensor of EAF (ZWO-EAF-SENSOR)](https://all-startelescope.com/products/zwo-temperature-sensor-of-eaf-zwo-eaf-sensor) | $28.12 CAD |
 | 1 x [ZWO EAF Bracket for Celestron C11 & C14 (ZWO-EAF-C11-C14)](https://all-startelescope.com/products/zwo-eaf-bracket-for-celestron-c11-and-c14-zwo-eaf-c11-c14) | $55.38 CAD |
-| 1 x [ZWO Hand Controller for EAF (ZWO-EAF-HC)](https://all-startelescope.com/products/zwo-hand-controller-of-eaf-zwo-eaf-hc) | $56.66 CAD |
-| **TOTAL (inc. shipping and tax)** |  $591.49 CAD |
+| 1 x [ZWO Temperature Sensor of EAF (ZWO-EAF-SENSOR)](https://all-startelescope.com/products/zwo-temperature-sensor-of-eaf-zwo-eaf-sensor) | Donated by Jerry |
+| 1 x [ZWO Hand Controller for EAF (ZWO-EAF-HC)](https://all-startelescope.com/products/zwo-hand-controller-of-eaf-zwo-eaf-hc) | Donated by Jerry |
+| **TOTAL (inc. shipping and tax)** |  $275.94 CAD |
 
-All-Star Telescope have offered to pay 50% of the items in Phase 7 if we can raise the other 50% in donations.
+All-Star Telescope have paid for 50% of the items in Phase 7.
 
 ## Other
 | Item | Price | 
@@ -124,6 +124,11 @@ All-Star Telescope have offered to pay 50% of the items in Phase 7 if we can rai
 | Alan K Chan | 2025-02-02 | ADM Adapter Plate and M48 Extender | $100 |
 | Terry Martin | 2025-02-02 | Various items. ZWO 2600MC-Pro, Sharpstar 76EPDH + Focal Reducer, Alt-Az Mount, Vixen, L-Extreme, Rings, M54 Adapters | $4824.22 |
 | Submitted to Nisha - up to this point | - | - | - |
+| Jerry Medeiros | 2025-02-13 | Focuser Hand Controller and temperature sensor | $84.78 |
+| Bill Yeung | 2025-02-13 | Payment of Phase 6 + Phase 7 and $26.41 towards magnetic charging cable| $1032.29 |
+| Mark Simpson | 2024-11-01 - Present | SkyPilot Goto | $1069.36 |
+| All-Star Telescope | 2025-02-14 | 50% Towards Phase 7 | $246.30 |
 | Trevor Gauthier | - | Planetary Camera | TBD |
-| Mark Simpson | 2024-11-01 - Present | SkyPilot Goto | $1631.32 |
-| **TOTAL** | | | $9161.88 |
+| Bruce Foster | - | f/6.3 Japan Focal Reducer | TBD |
+| Maciek | - | Airplay units for Android | TBD |
+| **TOTAL** | | | $9716.99 |
